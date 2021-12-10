@@ -2,10 +2,10 @@ package aquarium;
 
 public abstract class Fish {
 
-    String name;
-    int weight;
-    String color;
-    boolean memoryLoss = false;
+    private String name;
+    protected int weight;
+    private String color;
+    private boolean memoryLoss = false;
 
     protected Fish(String name, int weight, String color) {
         this.name = name;
